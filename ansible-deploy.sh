@@ -18,8 +18,8 @@
 ### just uncomment/comment in order to run and deprecate containers
 
 ##To run containers
-#docker-compose pull && docker-compose up -d
+docker-compose pull && docker-compose up -d
 
 ##To deprecate containers
-docker-compose down ##&& docker rmi $(docker images -a -q)
+#docker-compose down ##&& docker rmi $(docker images -a -q)
 
